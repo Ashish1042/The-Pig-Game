@@ -30,7 +30,7 @@ newGame();
 document.querySelector('.btn-hold').addEventListener('click', function() {
     score[activePlayer] += currentScores;
     document.querySelector('#score-' + activePlayer).textContent = score[activePlayer]
-    if (score[activePlayer] >= 10) {
+    if (score[activePlayer] >= 50) {
       document.querySelector('.dice').style.display = 'none';
       document.querySelector('#name-' + activePlayer).textContent = 'Winner!!';
       document.querySelector('.player-' + activePlayer + '-panel').classList.add('winner');
