@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="game_index.css">
+    <title>The pig game</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="player-0-panel panel panel-default active">
+        <div class="player-name" id="name-0">Player1</div>
+        <div class="player-score" id="score-0">42</div>
+        <div class="player-current-box">
+          <div class="player-current-label">Current</div>
+          <div class="player-current-score" id="current-0">0</div>
+        </div>
+      </div>
+      <div class="player-1-panel panel panel-default">
+          <div class="player-name" id="name-1">Player2</div>
+          <div class="player-score" id="score-1">10</div>
+          <div class="player-current-box">
+            <div class="player-current-label">Current</div>
+            <div class="player-current-score" id="current-1">0</div>
+          </div>
+      </div>
+
+      <button type="button" class="btn btn-default btn-new"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>New Game</button>
+      <button type="button" class="btn btn-default btn-roll"><span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>Roll Dice</button>
+      <button type="button" class="btn btn-default btn-hold"><span class="glyphicon glyphicon-open" aria-hidden="true"></span>Hold</button>
+
+      <img src="dice-1.png" alt="Dice" class="dice" id="dices">
+
+      </div>
+      <script src="game_index.js"></script>
+  </body>
+</html>
